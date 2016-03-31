@@ -77,12 +77,12 @@ waypoint.push(
 )
 
 
-$(window).bind('mousewheel', function(event) 
+$(window).bind('mousewheel DOMMouseScroll', function(event) 
 {
 	if(!animate)
     { 
 	    animate = true;
-	   	if (event.originalEvent.wheelDelta >= 0) 
+	   	if (event.originalEvent.wheelDelta >= 0 || event.originalEvent.detail < 0) 
 	   	{
 	   		if(currentWaypoint >= 1)
 	   		{
