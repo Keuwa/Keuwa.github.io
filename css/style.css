@@ -1,0 +1,58 @@
+/* Simon k - AlsacrÃ©ations.com - fÃ©vrier 2012 */
+
+/* GÃ©nÃ©ralitÃ©s */
+body {
+	overflow-y: hidden;
+	margin: 0;
+	padding: 0;
+	color:#fff;
+	font: normal 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+	font-size: 2em;
+	font-weight:bold;
+	color: #b7db44;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+	font-weight:bold;
+	color:#fff;
+}
+section {
+	min-height: 100vh;
+}
+
+/* Mise en place des diffÃ©rentes parties / slides */
+#formation, #skills, #experiences, #hobbies {
+	padding-top:100px;
+}
+
+#formation {
+	background: url(../images/1.jpg) no-repeat fixed;	
+}
+
+#skills {
+	background: url(../images/2.jpg) no-repeat fixed;
+}
+
+#experiences {
+	background: url(../images/3.jpg) no-repeat fixed;
+}
+#hobbies {
+	background: url(../images/4.jpg) no-repeat fixed;
+}
+#myself {
+	background: url(../images/4.jpg) no-repeat fixed;
+}
+
+
+/* Gestion du contenu */
+.slide_inside {
+	width: 980px;
+	margin: 0 auto;
+	text-align:center;
+
+}
