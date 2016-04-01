@@ -2,7 +2,6 @@
 
 /* GÃ©nÃ©ralitÃ©s */
 body {
-	overflow-y: hidden;
 	margin: 0;
 	padding: 0;
 	color:#fff;
@@ -61,5 +60,4 @@ table {
 .slide_inside {
 	width: 980px;
 	margin: 0 auto;
-
 }

@@ -109,7 +109,7 @@ $(window).bind('mousewheel DOMMouseScroll keydown', function(event)
    }
 })
 
-$.stellar();
+//$.stellar();
 //i = waypoint
 
 
