@@ -34,12 +34,7 @@ function checkAnwser(){
         }
         error()
         break
-        case "enigma_three":
-        if(answer === answer2){
             document.location.href = url+"/wagnionlerampant";
-            return
-        }
-        error()
         break
     }
 
