@@ -34,6 +34,7 @@ function checkAnwser(){
         }
         error()
         break
+        case "enigma_three":        
             document.location.href = url+"/wagnionlerampant";
         break
     }
