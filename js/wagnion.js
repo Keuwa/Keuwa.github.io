@@ -1,3 +1,4 @@
+answer0 = "rachid"
 answer1 = "keuwa"
 answer2 = "jumpy"
 answer3 = "la réponse d"
@@ -12,6 +13,13 @@ function checkAnwser(){
     console.log(page,answer,answer1,answer === answer1)
 
     switch(page){
+        case "Keuwa": 
+        if(answer === answer1){
+            document.location.href = url+"/enigma_one";
+            return
+        }
+        error()
+        break
         case "enigma_one":
         if(answer === answer1){
             document.location.href = url+"/wagnionlenoob";
