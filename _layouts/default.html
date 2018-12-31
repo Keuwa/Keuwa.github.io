@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 			<title>{{ page.title }}</title>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		 <!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+			
+			<link href="../bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+			<link href="../bootstrap-3.3.7/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+			<link href="/css/main.css" rel="stylesheet">
 			
 			<script src="/js/wagnion.js"></script>
 		</head>
 		<body>
-				<nav class="navbar navbar-light bg-light">
-						  Le Noël du Wagnion
-					  </nav>						<!-- <nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav> -->
-			<div class="container-fluid">
-			
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+					<a class="navbar-brand" href="#">	
+						Le Noel de Wagnion
+					</a>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse">
+					</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+			<div class="container">			
 				{{ content }}
-
 				<div class="form_answer"> 
 					<input id="answer" type="textfield"/>
 					<button onclick="checkAnwser()"> J'ai trouvé </button>
 				</div>
 				<div id="error"> </div>
 			</div><!-- /.container -->
-			<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		</body>
 	</html>
