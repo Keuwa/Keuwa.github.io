@@ -13,8 +13,8 @@ function checkAnwser(){
     console.log(page,answer,answer1,answer === answer1)
 
     switch(page){
-        case "Keuwa": 
-        if(answer === answer1){
+        case "keuwa": 
+        if(answer === answer0){
             document.location.href = url+"/enigma_one";
             return
         }
