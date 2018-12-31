@@ -1,8 +1,9 @@
 answer1 = "keuwa"
-answer2 = "la réponse d"
+answer2 = "jumpy"
 answer3 = "la réponse d"
 
 url = "http://keuwa.github.io"
+
 
 
 function checkAnwser(){
