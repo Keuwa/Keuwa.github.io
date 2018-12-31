@@ -1,4 +1,4 @@
-answer1 = "Keuwa"
+answer1 = "keuwa"
 answer2 = "la réponse d"
 answer3 = "la réponse d"
 
@@ -8,7 +8,7 @@ url = "http://keuwa.github.io"
 function checkAnwser(){
     page = document.title
     answer = document.getElementById("answer").value.toLowerCase()
-    console.log(page,answer)
+    console.log(page,answer,answer1,answer === answer1)
 
     switch(page){
         case "enigma_one":
