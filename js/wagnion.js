@@ -21,14 +21,14 @@ function checkAnwser(){
         break
         case "enigma_two":
         if(answer === answer2){
-            document.location.href = url+"madnion";
+            document.location.href = url+"/madnion";
             return
         }
         error()
         break
         case "enigma_three":
         if(answer === answer2){
-            document.location.href = url+"wagnionlerampant";
+            document.location.href = url+"/wagnionlerampant";
             return
         }
         error()
